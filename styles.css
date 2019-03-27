@@ -1,0 +1,40 @@
+ol {
+    font-family: monospace;
+    font-size: 18px;
+    color: white;
+}
+
+#navbar {
+    width: 100%;
+    background: white;
+  }
+  nav ul {
+    margin: 0px;
+    padding: 5px 0px 5px 30px;
+  }
+  nav li {
+    display: inline;
+    margin-right: 20px;
+  }
+  a {
+    text-decoration: none;
+  }
+  display: grid
+  grid-tempate-areas:
+    "header header"
+    "footer footer"
+  header, footer {
+    padding: 1.2em;
+    background: black;
+    }
+  #pageHeader {
+    grid-area: header;
+    font-size:6vw
+    }
+  #pageFooter {
+    grid-area: footer;
+    color: white;
+    }
+#resu {
+  background-color: lightblue;
+}
